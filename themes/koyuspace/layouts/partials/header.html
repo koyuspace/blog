@@ -1,0 +1,12 @@
+<header>
+	<div id="logo"><a href="{{ .Site.BaseURL }}"><img src="{{ "/logo.svg" | absURL }}" height="48"> {{ .Site.Title }}</a></div>
+	{{ with .Site.Menus.main }}
+	<nav>
+		<ul>
+			{{ range . }}
+			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+	</nav>
+	{{ end }}
+</header>

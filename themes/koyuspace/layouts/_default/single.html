@@ -1,0 +1,26 @@
+{{ define "main" }}
+	<main>
+		<article>
+			{{ with .Params.featured_image }}<style>body { background: url({{ . }}) #223 !important; background-size: cover !important; background-position: center center !important; background-blend-mode: overlay !important; background-attachment: fixed !important; }</style>{{ end }}
+			<h1>{{ .Title }}</h1>
+			<time>{{ .Date.Format "02.01.2006" }}</time>
+			<div>
+				{{ .Content }}
+			</div>
+			{{ with .Params.tags }}
+			<div>
+				<ul id="tags">
+					{{ range . }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+			{{ with .Site.DisqusShortname }}
+			<div>
+				{{ template "_internal/disqus.html" . }}
+			</div>
+			{{ end }}
+		</article>
+	</main>
+{{ end }}
