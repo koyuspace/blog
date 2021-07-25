@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic');
+
+body {
+    background: #223 !important;
+    color: #fff !important;
+    padding-top: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 20px;
+    margin: 0;
+}
+
+a,
+a:visited {
+    color: rgb(12, 131, 241);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+#logo,
+#logo a,
+#logo a:hover {
+    margin-bottom: 60px;
+    font-family: 'Titan One', cursive;
+    color: #fe53e1 !important;
+    text-decoration: none;
+    font-size: 18pt;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#logo img {
+    vertical-align: middle;
+}
+
+aside {
+    display: none;
+}
+
+article > h1 > a {
+    font-family: 'Titan One', cursive;
+    color: #fe53e1 !important;
+    font-size: 24pt;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+time {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: -24px;
+    font-size: 10pt;
+}
+
+time:before {
+    content: "Posted at ";
+}
+
+main > div {
+    display: none;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 40px;
+}
+
+article {
+    margin-bottom: 60px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 6px;
+}
+
+#hero {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14pt;
+}
+
+@media(max-width:800px) {
+    #logo {
+        text-align: center;
+        margin-left: -28px;
+    }
+}
+
+@media(min-width:800px) {
+    #hero {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 4px;
+    }
+}
