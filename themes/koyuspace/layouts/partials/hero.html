@@ -1,3 +1,5 @@
+{{ with .Site.Params.description }}
 <div id="hero">
-    {{ with .Site.Params.description }}{{ . }}{{ end }}
+    {{ . }}
 </div>
+{{ end }}
