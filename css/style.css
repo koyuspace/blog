@@ -91,6 +91,17 @@ article {
     font-size: 14pt;
 }
 
+.emoji {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+img:not(.emoji, .except) {
+    border-radius: 5px;
+    margin: 5px;
+}
+
 @media(max-width:800px) {
     #logo {
         text-align: center;
