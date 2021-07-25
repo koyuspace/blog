@@ -2,3 +2,6 @@ baseURL = "https://blog.koyu.space"
 languageCode = "en-us"
 title = "koyu.space Blog"
 theme = "koyuspace"
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
