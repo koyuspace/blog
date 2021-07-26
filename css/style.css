@@ -67,18 +67,12 @@ main > div {
 }
 
 main {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
     margin-top: 40px;
 }
 
 article {
     margin-bottom: 60px;
     background: #334;
-    padding: 20px;
-    padding-bottom: 40px;
-    border-radius: 6px;
 }
 
 #hero {
@@ -105,6 +99,9 @@ img:not(.emoji, .except) {
         text-align: center;
         margin-left: -28px;
     }
+    article {
+        padding: 20px;
+    }
 }
 
 @media(min-width:800px) {
@@ -113,5 +110,16 @@ img:not(.emoji, .except) {
         width: 50%;
         margin: 0 auto;
         border-radius: 4px;
+    }
+    article {
+        padding: 20px;
+        padding-bottom: 40px;
+        border-radius: 6px;
+    }
+    main {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 60px;
     }
 }
