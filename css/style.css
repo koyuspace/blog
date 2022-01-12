@@ -21,21 +21,6 @@ h1 {
     line-height: 1.5;
 }
 
-#logo,
-#logo a,
-#logo a:hover {
-    font-family: 'Titan One', cursive;
-    color: #fe53e1 !important;
-    text-decoration: none;
-    font-size: 18pt;
-    cursor: pointer;
-    padding-left: 10px;
-}
-
-#logo img {
-    vertical-align: middle;
-}
-
 aside {
     display: none;
 }
@@ -93,10 +78,6 @@ img:not(.emoji, .except) {
 }
 
 @media(max-width:800px) {
-    #logo {
-        text-align: center;
-        margin-left: -28px;
-    }
     article {
         padding: 20px;
     }
