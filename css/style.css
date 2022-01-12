@@ -4,9 +4,7 @@
 body {
     background: #223 !important;
     color: #fff !important;
-    padding-top: 30px;
     font-family: 'Didact Gothic', sans-serif;
-    padding-top: 20px;
     margin: 0;
 }
 
@@ -26,7 +24,6 @@ h1 {
 #logo,
 #logo a,
 #logo a:hover {
-    margin-bottom: 60px;
     font-family: 'Titan One', cursive;
     color: #fe53e1 !important;
     text-decoration: none;
