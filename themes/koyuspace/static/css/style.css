@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Titan+One');
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic');
-
 body {
     background: #223 !important;
     color: #fff !important;
@@ -27,7 +24,7 @@ h1 {
 #logo a,
 #logo a:hover {
     margin-bottom: 60px;
-    font-family: 'Titan One', cursive;
+    font-family: 'Titan One', sans-serif;
     color: #fe53e1 !important;
     text-decoration: none;
     font-size: 18pt;
@@ -44,7 +41,7 @@ aside {
 }
 
 article > h1 > a {
-    font-family: 'Titan One', cursive;
+    font-family: 'Titan One', sans-serif;
     color: #fe53e1 !important;
     font-size: 24pt;
     font-weight: 300;
